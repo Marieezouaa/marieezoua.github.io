@@ -1,12 +1,12 @@
+import Mail from "./assets/mail-01-Stroke-Rounded-2.png";
+import LinkedIn from "./assets/social-logos/linkedin-02-Stroke-Rounded.png";
+
 function Contact() {
   const title = ["Email", "LinkedIn"];
 
   const links = ["ezouamarie@outlook.com", "Marie Ezoua"];
 
-  const images = [
-    "src/assets/mail-01-Stroke-Rounded-2.png",
-    "src/assets/social-logos/linkedin-02-Stroke-Rounded.png",
-  ];
+  const images = [Mail, LinkedIn];
 
   const altContact = [];
 
@@ -27,11 +27,9 @@ function Contact() {
   }
 
   return (
-      <div id="contact" className="contact-page">
-          
-          <h2 className="title">Contact ME</h2>
-          
-          
+    <div id="contact" className="contact-page">
+      <h2 className="title">Contact ME</h2>
+
       <div className="contact-section">
         <div className="method-container">
           <div className="contact-methods">

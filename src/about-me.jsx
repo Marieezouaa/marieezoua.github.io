@@ -1,3 +1,5 @@
+import ArrowIcon from "./assets/arrow-right-04-Stroke-Rounded-2.png";
+
 function AboutMe() {
   const currentYear = new Date().getFullYear();
 
@@ -56,11 +58,7 @@ function AboutMe() {
         <p className="about-link-text">
           <a href="#">More About ME</a>
         </p>
-        <img
-          src="src/assets/arrow-right-04-Stroke-Rounded-2.png"
-          alt=""
-          className="about-arrow"
-        />
+        <img src={ArrowIcon} alt="" className="about-arrow" />
       </div>
     </div>
   );

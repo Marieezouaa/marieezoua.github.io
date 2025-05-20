@@ -1,9 +1,12 @@
+import ProfilePicture from "./assets/profile-picture.png";
+import Logo from "./assets/logo.png";
+
 function Header() {
   return (
     <div id="home" className="header-div">
       <div className="top-bar">
         <img
-          src="src/assets/logo.png"
+          src={Logo}
           alt="marieezoua-logo"
           className="header-logo"
         />
@@ -35,7 +38,7 @@ function Header() {
 
         <div className="welcome-sub-content">
           <img
-            src="src/assets/profile-picture.png"
+            src={ProfilePicture}
             alt="personal-picture"
             className="personal-picture"
           />

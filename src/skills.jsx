@@ -1,11 +1,15 @@
+import GitHub from "./assets/social-logos/github-logo.png";
+import Phone from "./assets/social-logos/phone-developer-mode-Stroke-Rounded.png";
+import Server from "./assets/social-logos/server-stack-03-Stroke-Rounded.png";
+import Web from "./assets/social-logos/web-design-02-Stroke-Rounded.png";
+import Cloud from "./assets/social-logos/computer-cloud-Stroke-Rounded.png";
+import Paint from "./assets/social-logos/paint-board-Stroke-Rounded.png";
+
+
 function Skills() {
   const images = [
-    "src/assets/social-logos/github-logo.png",
-    "src/assets/social-logos/phone-developer-mode-Stroke-Rounded.png",
-    "src/assets/social-logos/server-stack-03-Stroke-Rounded.png",
-    "src/assets/social-logos/web-design-02-Stroke-Rounded.png",
-    "src/assets/social-logos/computer-cloud-Stroke-Rounded.png",
-    "src/assets/social-logos/paint-board-Stroke-Rounded.png",
+   GitHub,Phone,Server, Web, Cloud,
+   Paint,
   ];
 
   const skillTitle = [
